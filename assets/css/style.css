@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+/*esto corresponde a edicion de header */
+header{
+    background-image: url(../img/fondo.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    border: solid 10px black; 
+}
+
+#encabezado {
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;     
+}
+
+/* esto corresponde a edicion de section */
+.contenedor{
+    width: 700px;
+    margin: auto;
+    border: solid 10px black;
+   padding: 3em;  
+}
+
+div > img {
+    width: 300px;
+    margin: auto;
+    margin-top: 30px ;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px;
+}
+
+div > div {
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+div > p {
+    text-align: left;
+    font-size: 25px;
+    margin-left: 30px;   
+}
+
+/* esto corresponde a edicion del footer */
+footer p {
+    background-color: green;
+    text-align: center;
+    font-size: 30px;
+    border: solid 10px black;    
+}
